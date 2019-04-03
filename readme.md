@@ -3,8 +3,8 @@
 <img src="/doc/usertest.png" alt="Score for User Test"/>
 
 ### Dependencies:
-TouchDesigner & Ableton with [TDAbleton](https://docs.derivative.ca/TDAbleton) set up
-Maschine for midi to use 'midi voice control' component. Otherwise, simply remove it and use the 'voice controllers' component directly.
+- TouchDesigner & Ableton with [TDAbleton](https://docs.derivative.ca/TDAbleton) set up. 
+- Maschine for midi to use 'midi voice control' component. Otherwise, simply remove the component and use the 'voice controllers' component directly.
 
 ### track controller
 A track controller controls one track inside of ableton. The 'digits' in the component's name corresponds to its track number in ableton. This allows the selected track to persist across sessions.
@@ -26,7 +26,7 @@ Has all voice controller buttons + sliders. The buttons and sliders can be contr
 
 
 ### collective voice
-With 2 or 4 voice controllers connected to , the 'collective' voice looks for a single voice to be present for it be activated. It's dance amount is close to binary, and is 1 when the average of all voices connected are at 90% dance amount. Currently this is tied to the drum track.
+With 2 or 4 voice controllers connected to this component, the 'collective voice  controller' looks for a single voice to be present for it be activated. It's dance amount is binary, and is 1 when the average of all voices connected are at 90% dance amount. Currently this collective voice controls the drum track.
 
 
 ### ableton
