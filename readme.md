@@ -1,13 +1,15 @@
 # User Test 1: Quick & Dirty Thesis Show
 
 <img src="/doc/usertest.png" alt="Score for User Test"/>
+
 ### Dependencies:
 TouchDesigner & Ableton with [TDAbleton](https://docs.derivative.ca/TDAbleton) set up
 Maschine for midi to use 'midi voice control' component. Otherwise, simply remove it and use the 'voice controllers' component directly.
 
 ### track controller
 A track controller controls one track inside of ableton. The 'digits' in the component's name corresponds to its track number in ableton. This allows the selected track to persist across sessions.
-<img src="/doc/voicecontrollers.png" alt="screenshot of voice controllers">
+<img src="/doc/trackcontroller.png" alt="screenshot of track controller custom parameters">
+
 - What is the volume level for ‘off’ and on? This allows users to feel their presence impacting the voice when entering the space.
 - Does it control a ‘rack’ device? This allows it to control parameters on instruments and effects. 
 	- If so, how many parameters (macros) does it control?
@@ -20,6 +22,8 @@ Takes in buttons and sliders from my midi controller and breaks it up to send to
 
 ### voice controller / visual feedback
 Has all voice controller buttons + sliders. The buttons and sliders can be controlled by inputs (ie midi) or can be used directly. 
+<img src="/doc/voicecontrollers.png" alt="screenshot of voice controllers">
+
 
 ### collective voice
 With 2 or 4 voice controllers connected to , the 'collective' voice looks for a single voice to be present for it be activated. It's dance amount is close to binary, and is 1 when the average of all voices connected are at 90% dance amount. Currently this is tied to the drum track.
@@ -36,7 +40,7 @@ In order for a composition in ableton to be controllable. It needs a few things.
 - All values 
 
 ### demo
-[watch a demo here]()
+[watch a demo here](https://vimeo.com/328255247)
 
 
 ### bugs
